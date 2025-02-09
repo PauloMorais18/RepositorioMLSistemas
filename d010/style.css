@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(to bottom, #3CDA84, #195C38);
+    height: 190px;
+    padding-top: 20px;
+    margin: -8px;
+}
+body{
+    background-color: #3CDA84;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+}
+footer{
+    background-color: #195C38;
+    color: silver;
+}
+a{
+    text-decoration: none;
+    color: #55856A;
+}
+a.aheader{
+    display: inline;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+h1#header{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p#header{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+.fontand{
+    font-family: idroid;
+    color:#195C38;
+}
+h2{
+    background-image: linear-gradient(to right, #3cda8379, white)
+}
+h1#h1footer{
+    background-color: #2EA866;
+    font-size: 1em;
+}
+nav#video{
+    background-color: #195C38;
+}
+nav#footer{
+    background-color: #C5EBD7;
+    border-radius: 20px;
+    text-align: center;
+}
